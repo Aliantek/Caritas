@@ -10,11 +10,14 @@
                     An Award Winning Studio Since 1990</h5>
             </div>
             <div class="col-lg-6">
-                <div class="owl-carousel header-carousel animated fadeIn">
-                    <img class="img-fluid" src="/assets/img_base/hero-slider-1.jpg" alt="">
-                    <img class="img-fluid" src="/assets/img_base/hero-slider-2.jpg" alt="">
-                    <img class="img-fluid" src="/assets/img_base/hero-slider-3.jpg" alt="">
-                </div>
+                <owl-carousel-o [options]="customOptions" class="owl-carousel header-carousel animated fadeIn">
+                    <ng-container *ngFor="let img of images">
+                        <ng-template carouselSlide>
+                            <img class="img-fluid" [src]="img" alt="">
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+
             </div>
         </div>
         <div class="row g-5 animated fadeIn">
@@ -58,3 +61,7 @@
 <app-contact></app-contact>
 <app-footer></app-footer>
 <app-bttp></app-bttp>
+
+<div *ngIf="loading">
+    <app-spinner></app-spinner>
+</div>
