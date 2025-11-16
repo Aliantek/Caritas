@@ -9,10 +9,11 @@ import { AboutComponent } from '../about/about.component';
 import { ContactComponent } from '../contact/contact.component';
 import { BttpComponent } from '../../shared/bttp/bttp.component';
 import { SpinnerComponent } from '../../shared/spinner/spinner.component';
+import { WorksComponent } from "../works/works.component";
 
 @Component({
   selector: 'app-home',
-  imports: [HeaderComponent, FooterComponent, AboutComponent, ContactComponent, BttpComponent, SpinnerComponent, NgIf, CarouselModule, NgFor],
+  imports: [HeaderComponent, FooterComponent, AboutComponent, ContactComponent, BttpComponent, SpinnerComponent, NgIf, CarouselModule, NgFor, WorksComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

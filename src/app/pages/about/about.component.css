@@ -1,0 +1,13 @@
+.bg-primary {
+  background-color: rgb(13 107 104) !important;
+}
+
+.mod-img {
+  z-index: -1;
+  position: relative;
+}
+
+.marg-top{
+    margin-top: -5rem;
+    line-height: 1px
+}

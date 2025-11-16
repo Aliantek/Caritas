@@ -1,13 +1,14 @@
 <app-header></app-header>
 <!-- Hero Start -->
-<div class="container-fluid pb-5 hero-header bg-light mb-5">
+<div id="home" class="container-fluid pb-5 hero-header bg-light mb-5">
     <div class="container py-5">
         <div class="row g-5 align-items-center mb-5">
             <div class="col-lg-6">
-                <h1 class="display-1 mb-4 animated slideInRight">We Make Your <span class="text-primary">Home</span>
-                    Better</h1>
+                <h1 class="display-1 mb-4 animated slideInRight">Caritas <span class="text-primary">Parroquial
+                    </span>
+                    San Vicente De Quiroga</h1>
                 <h5 class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slideInRight">
-                    An Award Winning Studio Since 1990</h5>
+                    Un apoyo constante para quienes más lo necesitan</h5>
             </div>
             <div class="col-lg-6">
                 <owl-carousel-o [options]="customOptions" class="owl-carousel header-carousel animated fadeIn">
@@ -24,41 +25,48 @@
             <div class="col-md-6 col-lg-3">
                 <div class="d-flex align-items-center">
                     <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-                        <i class="fa fa-robot text-primary"></i>
+                        <i class="fa fa-hand-holding-heart text-primary"></i>
                     </div>
-                    <h5 class="lh-base mb-0">Crafted Furniture</h5>
+                    <h5 class="lh-base mb-0">Compartimos alimento y esperanza</h5>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="d-flex align-items-center">
                     <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-                        <i class="fa fa-robot text-primary"></i>
+                        <i class="fa fa-hands-helping text-primary"></i>
                     </div>
-                    <h5 class="lh-base mb-0">Sustainable Material</h5>
+                    <h5 class="lh-base mb-0">Escuchamos, apoyamos y acompañamos</h5>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="d-flex align-items-center">
                     <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-                        <i class="fa fa-robot text-primary"></i>
+                        <i class="fa fa-seedling text-primary"></i>
                     </div>
-                    <h5 class="lh-base mb-0">Innovative Architects</h5>
+                    <h5 class="lh-base mb-0">Transformamos vidas con pequeños actos</h5>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="d-flex align-items-center">
                     <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-                        <i class="fa fa-robot text-primary"></i>
+                        <i class="fas fa-hands text-primary"></i>
                     </div>
-                    <h5 class="lh-base mb-0">Budget Friendly</h5>
+                    <h5 class="lh-base mb-0">Trabajamos juntos por un Quiroga mejor</h5>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!-- Hero End -->
-<app-about></app-about>
-<app-contact></app-contact>
+<div id="about">
+    <app-about></app-about>
+</div>
+<div id="works">
+    <app-works></app-works>
+</div>
+<div id="contact">
+    <app-contact></app-contact>
+</div>
 <app-footer></app-footer>
 <app-bttp></app-bttp>
 
