@@ -13,7 +13,7 @@ export class ContactComponent {
   openpage(){
     const text = this.input.nativeElement.value
     const msg = text.replaceAll(' ', '%20')
-    const url = `https://wa.me/593982262017?text=${msg}`
+    const url = `https://wa.me/593991389834?text=${msg}`
     window.open(url)
   }
 
