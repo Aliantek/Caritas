@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
-  email = 'info@example.com'
+  email = 'sonipaty2@hotmail.com'
 
 }
