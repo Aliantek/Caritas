@@ -22,7 +22,7 @@
   }
 }
 
-@media (max-width: 990px) {
+@media (min-width: 545px) and (max-width: 990px) {
   .mod-img {
     z-index: -1;
     position: relative;
@@ -34,7 +34,7 @@
   }
 }
 
-@media (max-width: 1199px) {
+@media (min-width: 991px) and (max-width: 1199px) {
   .mod-img {
     z-index: -1;
     position: relative;
